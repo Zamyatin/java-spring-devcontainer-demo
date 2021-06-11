@@ -1,4 +1,3 @@
-HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -30,4 +29,7 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+# Some VS Code files are valuable to share, particularly with devContainers
+# consider sharing `.vscode/settings.json` to enable devContainer setup for
+# things like Maven
+# .vscode/
